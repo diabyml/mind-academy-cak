@@ -390,7 +390,7 @@
             <!-- Team Item -->
             <div class="animate_top rj">
               <div class="c i pg z-1">
-                <img class="vd" src="images/team-01.png" alt="Team" />
+                <img class="vd" src="images/new/ceo.jpg" alt="Team" />
 
                 <div class="ef im nl il">
                   <span
@@ -547,7 +547,7 @@
       <section class="lj tp kr">
         <!-- Section Title Start -->
         <div
-          x-data="{ sectionTitle: `We Offer The Best Quality Service for You`, sectionTitleText: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`}"
+          x-data="{ sectionTitle: `Nos axes d'intervention`, sectionTitleText: `Mind academy, le pouvoir du changement réside dans la mentalité.`}"
         >
           <div class="animate_top bb ze rj ki xn vq">
             <h2
@@ -626,96 +626,14 @@
       <!-- ===== Services End ===== -->
 
       <!-- ===== Pricing Table Start ===== -->
-      <section x-data="setup()" class="i pg fh rm ji gp uq">
-        <!-- Bg Shapes -->
-        <img src="images/shape-06.svg" alt="Shape" class="h aa y" />
-        <img src="images/shape-03.svg" alt="Shape" class="h ca u" />
-        <img src="images/shape-07.svg" alt="Shape" class="h w da ee" />
-        <img src="images/shape-12.svg" alt="Shape" class="h p s" />
-        <img src="images/shape-13.svg" alt="Shape" class="h r q" />
 
-        <!-- Section Title Start -->
-        <div
-          x-data="{ sectionTitle: `We Offer Great Affordable Premium Prices.`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}"
-        >
-          <div class="animate_top bb ze rj ki xn vq">
-            <h2
-              x-text="sectionTitle"
-              class="fk vj pr kk wm on/5 gq/2 bb _b"
-            ></h2>
-            <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
-          </div>
-        </div>
-        <!-- Section Title End -->
-
-        <!-- Pricing switcher -->
-        <div class="tc wf xf jb og">
-          <span class="ek kk wm">Bill Monthly</span>
-          <button
-            class="i rg gm"
-            x-cloak
-            @click="billPlan == 'monthly' ? billPlan = 'annually' : billPlan = 'monthly'"
-          >
-            <div class="fe id bl gh rg xk outline-none"></div>
-            <div
-              class="h vc wf xf ge jd cl jl ml mf hh rg yk ea fa"
-              :class="{ 'ff': billPlan == 'monthly', 'gf': billPlan == 'annually' }"
-            ></div>
-          </button>
-          <span class="ek kk wm">Bill Annually</span>
-        </div>
-
-        <!-- Pricing Table -->
-        <div class="bb ze i va ki xn yq bc">
-          <div class="wc qf pn xo jg">
-            <template x-for="(plan, i) in plans" x-key="i">
-              <!-- Pricing Item -->
-              <div class="animate_top rj sg hh sm vk xm hi nj oj">
-                <h4 x-text="plan.name" class="wj kk wm fb"></h4>
-
-                <div class="tc wf xf kg cc">
-                  <h2
-                    :class="plan.name == 'Basic' ? 'text-green-500' : ''"
-                    x-text="`$${billPlan == 'monthly' ? plan.price.monthly : plan.price.annually}`"
-                    class="fk _j kk wm"
-                  ></h2>
-                  <span
-                    x-text="billPlan == 'monthly' ? '/per month' : '/per year'"
-                    class="sc ak kk wm"
-                  ></span>
-                </div>
-
-                <p class="ur dc">No credit card required</p>
-
-                <!-- Button -->
-                <a
-                  href="#"
-                  class="ek rg lk ml il gi ri"
-                  :class="plan.name == 'Growth Plan' ? 'gh sl' : 'mh tl'"
-                >
-                  Try for free
-                </a>
-
-                <!-- Features -->
-                <ul class="tc sf bg ob fb">
-                  <template x-for="(feature, i) in plan.features" x-key="i">
-                    <li x-text="feature"></li>
-                  </template>
-                </ul>
-
-                <p class="kk wm">7-day free trial</p>
-              </div>
-            </template>
-          </div>
-        </div>
-      </section>
       <!-- ===== Pricing Table End ===== -->
 
       <!-- ===== Projects Start ===== -->
       <section class="pg pj vp mr oj wp nr">
         <!-- Section Title Start -->
         <div
-          x-data="{ sectionTitle: `We Offer Great Affordable Premium Prices.`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}"
+          x-data="{ sectionTitle: `Le pouvoir de changement.`, sectionTitleText: `La mission de Mind Academy est de responsabiliser la jeunesse africaine face aux défis du continent à travers le développement de la mentalité en une période de 5 ans.`}"
         >
           <div class="animate_top bb ze rj ki xn vq">
             <h2
@@ -729,7 +647,7 @@
 
         <div class="bb ze ki xn 2xl:ud-px-0 jb" x-data="{filterTab: 1}">
           <!-- Porject Tab -->
-          <div
+          <!-- <div
             class="projects-tab _e bb tc uf wf xf cg rg hh rm vk xm si ti fc"
           >
             <button
@@ -764,7 +682,7 @@
             >
               Ecommerce
             </button>
-          </div>
+          </div> -->
 
           <!-- Projects item wrapper -->
           <div class="projects-wrapper tc -ud-mx-5">
@@ -772,9 +690,9 @@
             <!-- Project Item -->
             <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
               <div class="c i pg sg z-1">
-                <img src="images/project-01.png" alt="Project" />
+                <img src="images/new/gallery/04.jpg" alt="Project" />
 
-                <div
+                <!-- <div
                   class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
                 >
                   <h4 class="ek tj kk hc">Photo Retouching</h4>
@@ -796,16 +714,16 @@
                       />
                     </svg>
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
 
             <!-- Project Item -->
             <div class="project-item wi fb vd jn/2 to/3 digital">
               <div class="c i pg sg z-1">
-                <img src="images/project-02.png" alt="Project" />
+                <img src="images/new/gallery/02.jpg" alt="Project" />
 
-                <div
+                <!-- <div
                   class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
                 >
                   <h4 class="ek tj kk hc">Photo Retouching</h4>
@@ -827,16 +745,16 @@
                       />
                     </svg>
                   </a>
-                </div>
+                </div> -->
               </div>
             </div>
 
             <!-- Project Item -->
             <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
               <div class="c i pg sg z-1">
-                <img src="images/project-04.png" alt="Project" />
+                <img src="images/new/gallery/03.jpg" alt="Project" />
 
-                <div
+                <!-- <div
                   class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
                 >
                   <h4 class="ek tj kk hc">Photo Retouching</h4>
@@ -858,38 +776,7 @@
                       />
                     </svg>
                   </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project Item -->
-            <div class="project-item wi fb vd vo/3 digital ecommerce">
-              <div class="c i pg sg z-1">
-                <img src="images/project-03.png" alt="Project" />
-
-                <div
-                  class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
-                >
-                  <h4 class="ek tj kk hc">Photo Retouching</h4>
-                  <p>Branded Ecommerce</p>
-                  <a
-                    class="c tc wf xf ie ld rg _g dh ml il ph jm km jc"
-                    href="#"
-                  >
-                    <svg
-                      class="th lm ml il"
-                      width="14"
-                      height="14"
-                      viewBox="0 0 14 14"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z"
-                      />
-                    </svg>
-                  </a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -997,131 +884,6 @@
         </div>
       </section>
       <!-- ===== Testimonials End ===== -->
-
-      <!-- ===== Counter Start ===== -->
-      <section class="i pg qh rm ji hp">
-        <img src="images/shape-11.svg" alt="Shape" class="of h ga ha ke" />
-        <img src="images/shape-07.svg" alt="Shape" class="h ia o ae jf" />
-        <img src="images/shape-14.svg" alt="Shape" class="h ja ka" />
-        <img src="images/shape-15.svg" alt="Shape" class="h q p" />
-
-        <div class="bb ze i va ki xn br">
-          <div class="tc uf sn tn xf un gg">
-            <div class="animate_top me/5 ln rj">
-              <h2 class="gk vj zp or kk wm hc">785</h2>
-              <p class="ek bk aq">Global Brands</p>
-            </div>
-            <div class="animate_top me/5 ln rj">
-              <h2 class="gk vj zp or kk wm hc">533</h2>
-              <p class="ek bk aq">Happy Clients</p>
-            </div>
-            <div class="animate_top me/5 ln rj">
-              <h2 class="gk vj zp or kk wm hc">865</h2>
-              <p class="ek bk aq">Winning Award</p>
-            </div>
-            <div class="animate_top me/5 ln rj">
-              <h2 class="gk vj zp or kk wm hc">346</h2>
-              <p class="ek bk aq">Happy Clients</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- ===== Counter End ===== -->
-
-      <!-- ===== Clients Start ===== -->
-      <section class="pj vp mr">
-        <!-- Section Title Start -->
-        <div
-          x-data="{ sectionTitle: `Trusted by Global Brands`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}"
-        >
-          <div class="animate_top bb ze rj ki xn vq">
-            <h2
-              x-text="sectionTitle"
-              class="fk vj pr kk wm on/5 gq/2 bb _b"
-            ></h2>
-            <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
-          </div>
-        </div>
-        <!-- Section Title End -->
-
-        <div class="bb ze ah ch pm hj xp ki xn 2xl:ud-px-49 bc">
-          <div class="wc rf qn zf cp kq xf wf">
-            <a href="#" class="rc animate_top">
-              <img
-                class="th wl ml il zl om"
-                src="images/brand-light-01.svg"
-                alt="Clients"
-              />
-              <img
-                class="xc sk ml il zl nm"
-                src="images/brand-dark-01.svg"
-                alt="Clients"
-              />
-            </a>
-            <a href="#" class="rc animate_top">
-              <img
-                class="tk ml il zl om"
-                src="images/brand-light-02.svg"
-                alt="Clients"
-              />
-              <img
-                class="xc sk ml il zl nm"
-                src="images/brand-dark-02.svg"
-                alt="Clients"
-              />
-            </a>
-            <a href="#" class="rc animate_top">
-              <img
-                class="tk ml il zl om"
-                src="images/brand-light-03.svg"
-                alt="Clients"
-              />
-              <img
-                class="xc sk ml il zl nm"
-                src="images/brand-dark-03.svg"
-                alt="Clients"
-              />
-            </a>
-            <a href="#" class="rc animate_top">
-              <img
-                class="tk ml il zl om"
-                src="images/brand-light-04.svg"
-                alt="Clients"
-              />
-              <img
-                class="xc sk ml il zl nm"
-                src="images/brand-dark-04.svg"
-                alt="Clients"
-              />
-            </a>
-            <a href="#" class="rc animate_top">
-              <img
-                class="tk ml il zl om"
-                src="images/brand-light-05.svg"
-                alt="Clients"
-              />
-              <img
-                class="xc sk ml il zl nm"
-                src="images/brand-dark-05.svg"
-                alt="Clients"
-              />
-            </a>
-            <a href="#" class="rc animate_top">
-              <img
-                class="tk ml il zl om"
-                src="images/brand-light-06.svg"
-                alt="Clients"
-              />
-              <img
-                class="xc sk ml il zl nm"
-                src="images/brand-dark-06.svg"
-                alt="Clients"
-              />
-            </a>
-          </div>
-        </div>
-      </section>
-      <!-- ===== Clients End ===== -->
 
       <!-- ===== Blog Start ===== -->
       <section class="ji gp uq">
@@ -1480,7 +1242,7 @@
     <footer>
       <div class="bb ze ki xn 2xl:ud-px-0">
         <!-- Footer Top -->
-        <div class="ji gp">
+        <!-- <div class="ji gp">
           <div class="tc uf ap gg fp">
             <div class="animate_top zd/2 to/4">
               <a href="index.html">
@@ -1671,21 +1433,25 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- Footer Top -->
 
         <!-- Footer Bottom -->
         <div class="bh ch pm tc uf sf yo wf xf ap cg fp bj">
           <div class="animate_top">
             <ul class="tc wf gg">
-              <li><a href="#" class="xl">English</a></li>
-              <li><a href="#" class="xl">Privacy Policy</a></li>
-              <li><a href="#" class="xl">Support</a></li>
+              <li>
+                <a href="#" class="xl" style="display: none">English</a>
+              </li>
+              <li>
+                <a href="#" class="xl" style="display: none">Privacy Policy</a>
+              </li>
+              <li><a href="#" class="xl" style="display: none">Support</a></li>
             </ul>
           </div>
 
           <div class="animate_top">
-            <p>&copy; 2025 Base. All rights reserved</p>
+            <p>&copy; 2023 Mind Academy. All rights reserved</p>
           </div>
         </div>
         <!-- Footer Bottom -->
